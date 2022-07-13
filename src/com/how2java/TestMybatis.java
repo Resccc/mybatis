@@ -43,6 +43,7 @@ public class TestMybatis {
 		 */
         
         deleteOrderItem(session);
+        addOrderItem(session);
         listOrder(session);
         
         session.commit();
